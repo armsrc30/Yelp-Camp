@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    background-image:
+    url("https://res.cloudinary.com/dv62k5cai/image/upload/v1639045350/YelpCamp/starrySky_efksen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    
+}
+
+#container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://res.cloudinary.com/dv62k5cai/image/upload/v1638533008/YelpCamp/dfmexu7szebsrppo6jdl.jpg');
+    
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1000px;
+    justify-content: space-between;
+ 
+}
+
+
+
+#left, #middle{
+    border-right: 1px solid blue;
+   
+}
+
+#left, #middle, #right{
+    width: 33%;
+    padding-bottom: 50px;
+}
+
+#top{
+    padding-top: 50px;
+}
+
+
+
+#welcome{
+    color: white;
+    font-size: 75px;
+   
+}
+
+#bottom{
+    height: 400px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    transition: all 0.5s;
+}
+
+button:hover{
+    color: yellow;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.25em);
+}
+
